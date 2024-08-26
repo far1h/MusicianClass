@@ -19,10 +19,10 @@ class Musicians {
     
     // PROPERTY
     
-    var name : String = ""
-    var age : Int = 0
-    var instrument : String = ""
-    var type : MusicianType
+    private var name : String = ""
+    private var age : Int = 0
+    private var instrument : String = ""
+    private var type : MusicianType
  
     init(name: String, age: Int, instrument: String, type: MusicianType) {
         self.name = name
