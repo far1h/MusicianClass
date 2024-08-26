@@ -14,3 +14,7 @@ let james = Musicians(name: "James", age: 10, instrument: "Piano", type: .Bassis
 
 print(james.age)
 print(james.type)
+james.sing()
+
+let kirk = SuperMusician(name: "Kirk", age: 29, instrument: "Guitar", type: .LeadGuitar)
+kirk.sing()

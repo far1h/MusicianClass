@@ -31,4 +31,8 @@ class Musicians {
         self.type = type
     }
     
+    func sing(){
+        print("lalala")
+    }
+    
 }
